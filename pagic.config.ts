@@ -3,7 +3,7 @@
 export default {
   srcDir: '.',
   exclude: ['LICENSE'],
-  root: '/pagic_template_docs/',
+  root: '/pagic/',
 
   theme: 'docs',
   plugins: ['sidebar', 'prev_next'],
@@ -17,7 +17,7 @@ export default {
   nav: [
     {
       text: 'Docs',
-      link: '/pagic_template_docs/introduction/index.html',
+      link: '/pagic/introduction/index.html',
     },
     {
       text: 'Pagic',
@@ -25,7 +25,7 @@ export default {
     },
     {
       text: 'About',
-      link: '/pagic_template_docs/about/index.html',
+      link: '/pagic/about/index.html',
       align: 'right',
     },
   ],
